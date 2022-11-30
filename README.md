@@ -39,4 +39,5 @@ We uses these files to complete the implementation:
 - `src/components/SimpleTodos/index.css`
 - `src/components/TodoItem/index.js`
 - `src/components/TodoItem/index.css`
+- `src/App.js`
 </details>
