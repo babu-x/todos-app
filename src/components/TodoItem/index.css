@@ -1,0 +1,67 @@
+.todo-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 19px;
+  padding-left: 0;
+}
+.check-box {
+  width: 21px;
+  height: 21px;
+  margin-right: 20px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.todo-title-container {
+  background-color: #e6f6ff;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 22px;
+  border-left: 4px solid #096f92;
+  border-radius: 5px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .todo-item-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+  }
+}
+.todo-title {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+.strike-off {
+  text-decoration: line-through;
+}
+.delete-icon {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .todo-title {
+    font-size: 16px;
+  }
+  .delete-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+.date {
+  color: #3c3c3c;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'roboto';
+  margin-top: 5px;
+  margin-bottom: 0;
+}
